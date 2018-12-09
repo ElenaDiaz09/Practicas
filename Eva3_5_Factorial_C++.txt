@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int calculaFactorial(int iVal){
+    int iResu = 1;
+    for (int i = iVal; i >= 1; i--){
+        iResu *= 1;
+    
+    }
+    return iResu;
+}
+int main()
+{
+    cout<<"Resultado=" << calculaFactorial(5);
+
+    return 0;
+}
